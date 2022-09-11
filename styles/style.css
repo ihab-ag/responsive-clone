@@ -19,6 +19,17 @@ h1{
 h2{
     font-size:16px;
 }
+.btn{
+    border:none;
+    padding: 12px;
+    font-size:16px;
+    font-weight:700;
+    border-radius: 5px;
+}
+.btn__grey{
+    background-color: #5b5b5b;
+    color: white;
+}
 .white{
     color:white;
 }
@@ -78,7 +89,7 @@ h2{
 }
 /* join us section */
 .join-us .container{
-    padding: 0 10%;
+    padding-top: 0;
     text-align: center;
     display:flex;
     flex-direction: column;
