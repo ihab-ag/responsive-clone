@@ -6,6 +6,11 @@
 img{
     height:100%;
 }
+/* utilities */
+.container{
+    width:100%;
+    padding: 30% 10%;
+}
 /* Hero section */
 .hero{
     background: url('../content/hero-bg1.svg'), url('../content/hero-bg2.png'),url('../content/hero-bg3.jpg');
