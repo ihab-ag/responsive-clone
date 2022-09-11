@@ -28,6 +28,9 @@ h2{
 .grey{
     color:#5b5b5b;
 }
+.light-grey{
+    color:#6e6e6e;
+}
 /* Hero section */
 .hero{
     background: url('../content/hero-bg1.svg'), url('../content/hero-bg2.png'),url('../content/hero-bg3.jpg');
@@ -54,4 +57,9 @@ h2{
 /* slogan */
 .slogan{
     text-align: center;
+}
+/* info section */
+.info__card{
+    display:flex;
+    flex-direction: column;
 }
