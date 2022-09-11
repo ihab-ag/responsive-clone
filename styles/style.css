@@ -31,7 +31,7 @@ h2{
 /* Hero section */
 .hero{
     background: url('../content/hero-bg1.svg'), url('../content/hero-bg2.png'),url('../content/hero-bg3.jpg');
-    background-size: cover;
+    background-size:cover;
     background-repeat: no-repeat;
     background-position: center;
 }
