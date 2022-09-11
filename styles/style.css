@@ -95,3 +95,8 @@ h2{
     flex-direction: column;
     gap:15px;
 }
+/* footer */
+.footer{
+    background: #4eb980;
+    text-align: center;
+}
