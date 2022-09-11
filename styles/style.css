@@ -11,7 +11,7 @@ img{
 /* utilities */
 .container{
     width:100%;
-    padding: 15% 10%;
+    padding: 15% 10% 0 10%;
 }
 h1{
     font-size:20px;
@@ -107,9 +107,11 @@ p{
 /* join us section */
 .join-us .container{
     padding-top: 0;
+    padding-bottom: 10%;
     text-align: center;
     display:flex;
     flex-direction: column;
+    align-items: center;
     gap:15px;
 }
 /* footer */
@@ -121,11 +123,64 @@ p{
     display: flex;
     flex-direction: column;
     gap:15px;
+    align-items: center;
 }
 .split-input{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     gap:15px;
-    height:25px;
+    height:40px;
+    width:100%;
+}
+/* media queries */
+@media screen and (min-width:740px){
+    .container{
+        padding:2%;
+    }
+    .hero .container{
+        padding:15%;
+        padding-bottom: 20%;
+    }
+    .hero__img{
+        width:85px;
+        height:85px;
+    }
+    h1{
+        font-size:32px;
+    }
+    h2{
+        font-size:22px;
+    }
+    p{
+        font-size: 16px;
+    }
+    .info__card{
+        flex-direction: row;
+        align-items: center;
+    }
+    .info__card:nth-child(2){
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+    .info__card .container{
+        text-align: left;
+        width:100%;
+    }
+    .info__card .container h2{
+        font-size: 22px;
+    }
+    .info__img{
+        height:100%;
+        width:100%;
+    }
+    .btn{
+        width:50%;
+    }
+    .footer .container{
+        padding:2% 20%;
+    }
+    .split-input{
+        height:45px;
+    }
 }
