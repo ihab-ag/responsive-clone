@@ -118,3 +118,10 @@ p{
     flex-direction: column;
     gap:15px;
 }
+.split-input{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap:15px;
+    height:25px;
+}
