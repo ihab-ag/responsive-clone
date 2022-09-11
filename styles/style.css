@@ -103,3 +103,8 @@ h2{
     background: #4eb980;
     text-align: center;
 }
+.footer .container{
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+}
