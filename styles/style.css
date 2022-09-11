@@ -11,6 +11,9 @@ img{
     width:100%;
     padding: 30% 10%;
 }
+h1{
+    font-size:20px;
+}
 /* Hero section */
 .hero{
     background: url('../content/hero-bg1.svg'), url('../content/hero-bg2.png'),url('../content/hero-bg3.jpg');
