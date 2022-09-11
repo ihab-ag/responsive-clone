@@ -21,6 +21,9 @@ h1{
 .trans{
     color:rgba(255, 255, 255, 0.8);
 }
+.grey{
+    color:#5b5b5b;
+}
 /* Hero section */
 .hero{
     background: url('../content/hero-bg1.svg'), url('../content/hero-bg2.png'),url('../content/hero-bg3.jpg');
