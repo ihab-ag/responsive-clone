@@ -28,6 +28,10 @@ p{
     border-radius: 2px;
     width:100%;
     resize: none;
+    padding:10px;
+}
+.input::placeholder{
+    color:white;
 }
 .btn{
     border:none;
