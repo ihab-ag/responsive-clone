@@ -15,6 +15,9 @@ img{
 h1{
     font-size:20px;
 }
+.white{
+    color:white;
+}
 /* Hero section */
 .hero{
     background: url('../content/hero-bg1.svg'), url('../content/hero-bg2.png'),url('../content/hero-bg3.jpg');
